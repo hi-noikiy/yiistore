@@ -56,6 +56,29 @@ $config = [
         ],
     ],
     'params' => $params,
+    'modules' => [
+        'api' => [
+            'class' => 'app\modules\api\Module',
+        ],
+        'console' => [
+            'class' => 'app\modules\console\Module',
+        ],
+        'passport' => [
+            'class' => 'app\modules\passport\Module',
+        ],
+        'portal' => [
+            'class' => 'app\modules\portal\Module',
+        ],
+        'shop' => [
+            'class' => 'app\modules\shop\Module',
+        ],
+        'store' => [
+            'class' => 'app\modules\store\Module',
+        ],
+        'user' => [
+            'class' => 'app\modules\user\Module',
+        ],
+    ],
 ];
 
 if (YII_ENV_DEV) {
